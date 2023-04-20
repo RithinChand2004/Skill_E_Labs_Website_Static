@@ -2940,7 +2940,11 @@ Google map
 }
 
 .about_us_footer{
-  background-image: url('/assets/images/about us/footer.jpeg');
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+   url('/assets/images/about us/footer.jpeg');
 }
 
 .about_us_footer .container{
@@ -2952,4 +2956,120 @@ Google map
 .about_us_footer p{
   letter-spacing: 4px;
   font-size: 15px;
+}
+
+
+#grad1{
+  background-image: linear-gradient(to left, #1A1B2D, #1B1C56);
+  border-bottom-right-radius: 75px;
+}
+
+#grad1 .course_intro_container{
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course_intro .course_title{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.course_intro ol{
+  background: none;
+  color: white;
+}
+
+.course_intro{
+  color: white;
+  margin-right: 10%;
+}
+
+.course_intro_title p{
+  font-size: 20px;
+}
+
+#grad1 .post-images-slider{
+  margin: 0;
+}
+
+#grad1 .course_image{
+  width: 50%;
+  height: 75%;
+  overflow: hidden;
+  border-radius: 75px;
+}
+
+.enroll_button{
+  margin-top: 5%;
+}
+
+.course_details .container1{
+  border: #000000 1px solid;
+}
+
+.tick_symbol{
+  color: #1A1B2D;
+  font-size: 5em;
+}
+
+.container-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.course_details{
+  margin-top: 5%;
+}
+
+.course_details .main_container{
+  width: 100%;
+}
+
+.container3{
+  background-color: rgb(26, 28, 72);
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 1.2em 1.2em;
+  margin-left: 15px;
+}
+
+.container4{
+  margin-top: 10px;
+  border: #000000 1px solid;
+  display: flex;
+  padding-top: 10px;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.container4 img{
+  height: 50%;
+  width: 50%;
+}
+
+.container4 .content{
+  padding: 0 10px;
+  color: black;
+}
+
+.container4 p{
+  font-size: 15px;
+}
+
+.icons{
+  display: flex;
+}
+
+.related_courses{
+  padding: 0;
+}
+
+.courses{
+  
 }
